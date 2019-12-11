@@ -4,19 +4,19 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    siteName: 'My Shop',
+    siteName: 'Test Demo',
   },
   plugins: [
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-datocms`,
-      options: { apiToken: process.env.DATO_API_TOKEN },
+      options: { apiToken: '89cf9dbabfedfbd88c4b0b01346631'},
     },
     {
       resolve: 'gatsby-plugin-snipcart',
       options: {
-        apiKey: 'OWE3MmZmMjQtNTk3Yi00OThhLWEwMmUtZDY4ZWM4NzIwYzZiNjM2NjM0Mzc1NzE0MTUwNzI1',
+        apiKey: 'M2QxNzkzYmYtMjljOC00NjBiLWFjNDYtYzBiZTgxM2Q1ZGUwNjM3MTE2MTU0OTU4MzQ0NzY4',
         autopop: true
       }
     },
